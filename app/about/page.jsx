@@ -10,7 +10,7 @@ export default function AboutPageJsx() {
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <section className="text-center mb-16">
-          <h1 className="text-4xl font-extrabold text-white mb-4 mt-16">About ResumeAI</h1>
+          <h1 className="text-4xl font-extrabold text-white mb-4 mt-16">About ResumeChecker</h1>
           <p className="text-xl text-white/80 max-w-3xl mx-auto">
             We're on a mission to revolutionize the job search process by harnessing the power of AI to help job seekers create outstanding resumes and land their dream jobs.
           </p>
@@ -20,7 +20,7 @@ export default function AboutPageJsx() {
           <div>
             <h2 className="text-3xl font-bold text-white mb-4">Our Story</h2>
             <p className="text-white/80 mb-4">
-              Founded in 2023, ResumeAI was born out of the frustration of seeing talented individuals struggle to showcase their skills effectively on paper. Our team of AI experts and career coaches came together to create a solution that levels the playing field for job seekers worldwide.
+              Founded in 2023, ResumeChecker was born out of the frustration of seeing talented individuals struggle to showcase their skills effectively on paper. Our team of AI experts and career coaches came together to create a solution that levels the playing field for job seekers worldwide.
             </p>
             <p className="text-white/80">
               Today, we're proud to have helped thousands of professionals across various industries land interviews and secure their ideal positions. Our AI-powered platform continues to evolve, learning from each resume to provide even better insights and recommendations.
@@ -69,7 +69,7 @@ export default function AboutPageJsx() {
 
       <footer className="bg-white/10 backdrop-blur-md text-white py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p>© {new Date().getFullYear()} ResumeAI. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} ResumeCehcker. All rights reserved.</p>
         </div>
       </footer>
     </div>

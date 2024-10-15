@@ -95,7 +95,7 @@ export function EnhancedHomePageJsx() {
             <div className="text-center md:text-left">
               <div className="flex items-center justify-center md:justify-start">
                 <Package2 className="h-8 w-8 text-white mr-2" />
-                <span className="text-2xl font-bold">ResumeAI</span>
+                <span className="text-2xl font-bold">ResumeChecker</span>
               </div>
               <p className="mt-2 text-sm">Empowering careers with AI-driven insights</p>
             </div>
