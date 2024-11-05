@@ -2,8 +2,8 @@
 
 import React from "react"
 import Link from "next/link"
-import { Package2, Users, Zap, Globe } from "lucide-react"
-
+import { Users, Zap, Globe } from "lucide-react"
+import Image from "next/image"
 export default function AboutPageJsx() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-400 to-blue-500 mt-[-60px]">
@@ -12,7 +12,7 @@ export default function AboutPageJsx() {
         <section className="text-center mb-16">
           <h1 className="text-4xl font-extrabold text-white mb-4 mt-16">About ResumeChecker</h1>
           <p className="text-xl text-white/80 max-w-3xl mx-auto">
-            We're on a mission to revolutionize the job search process by harnessing the power of AI to help job seekers create outstanding resumes and land their dream jobs.
+            We&apos;re on a mission to revolutionize the job search process by harnessing the power of AI to help job seekers create outstanding resumes and land their dream jobs.
           </p>
         </section>
 
@@ -23,11 +23,11 @@ export default function AboutPageJsx() {
               Founded in 2023, ResumeChecker was born out of the frustration of seeing talented individuals struggle to showcase their skills effectively on paper. Our team of AI experts and career coaches came together to create a solution that levels the playing field for job seekers worldwide.
             </p>
             <p className="text-white/80">
-              Today, we're proud to have helped thousands of professionals across various industries land interviews and secure their ideal positions. Our AI-powered platform continues to evolve, learning from each resume to provide even better insights and recommendations.
+              Today, we&apos;re proud to have helped thousands of professionals across various industries land interviews and secure their ideal positions. Our AI-powered platform continues to evolve, learning from each resume to provide even better insights and recommendations.
             </p>
           </div>
           <div className="relative h-96 rounded-lg overflow-hidden shadow-xl">
-            <img
+            <Image
               src="/placeholder.svg"
               alt="Team working together"
               className="w-full h-full object-cover rounded-lg"

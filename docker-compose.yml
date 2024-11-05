@@ -1,0 +1,12 @@
+services:
+  fe:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true
+    volumes:
+      - '.:/app'          # Mount entire project to /app
+      - '/app/node_modules'  # Prevents issues with dependencies in Docker
+    command: npm run dev  # Use 'dev' command for hot reloading

@@ -1,8 +1,7 @@
 'use client'
 
 import React from "react"
-import Link from "next/link"
-import { Check, Package2 } from "lucide-react"
+import { Check } from "lucide-react"
 
 export default function PricingPageJsx() {
   return (
