@@ -12,7 +12,7 @@ export function FancyResumeCheckerAuthComponent() {
   const [activeTab, setActiveTab] = useState("signin")
 
   return (
-    <div className="min-h-screen flex flex-col lg:flex-row bg-gradient-to-br from-green-400 to-blue-500 mt-[-64px]">
+    <div className="h-screen flex flex-col lg:flex-row bg-gradient-to-br from-green-400 to-blue-500 mt-[-64px]">
       {/* Auth Form Section */}
       <div className="lg:w-1/2 flex items-center justify-center p-4 sm:p-6 lg:p-8 mt-16">
         <Card className="w-full max-w-md bg-white/80 backdrop-blur-md shadow-xl">
@@ -137,7 +137,7 @@ export function FancyResumeCheckerAuthComponent() {
             {/* <Image
               src="/placeholder.svg?height=200&width=400"
               width={400}
-              height={200}
+              height=200}
               alt="Resume Analysis Demo"
               className="rounded-lg shadow-2xl mx-auto mb-8"
             /> */}
